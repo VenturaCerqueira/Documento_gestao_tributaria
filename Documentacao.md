@@ -48,13 +48,71 @@ Essas são validações que acontecem após solicitação de login, verificando 
 
 #   
 
-#   Contribuintes:
+#   🙍🏼Contribuintes:
 ####    **URL:**
      www.e-contrib.com.br/gestaotributaria/keep/contribuintes
 
 ###  Campos:
 ####    Os campos formulário:
-*   **Foto:**
+*   **🖼️ - Foto:**
     *   **Descrição:** Campo que corresponde à coluna imagem na tabela contribuinte.
     *   **Tipo de Dado:** *varchar(191)*
     *   **Restrição:** Não pode ser nulo (is not null)
+
+*   **👨🏼‍💼/🙍🏼 - Tipo Pessoa (Jurídica/Física):**
+*   **Descrição:** Campo que corresponde à coluna **tipo** na tabela contribuinte.
+    *   **Tipo de Dado:** *tinyint(4)*
+    *   **Restrição:** Não pode ser nulo (is not null)
+    *   **Código:** 
+    ~~~
+     name: "Tipo pessoa",
+            selector: row => [row.tipo == 1 ? 'Jurídica' : 'Física'],
+            sortable: true,
+    ~~~
+
+    *   **🔢 - CPF/CNPJ:**
+    *   **Descrição:**  Campo que corresponde à coluna cpf_cnpj na tabela contribuinte.
+    *   **Tipo de Dado:** *varchar(14)*
+    *   **Restrição:** Não pode ser nulo (is not null)
+    *   **Código:**
+     ~~~
+     name: "CPF/CNPJ",
+            selector: row => [formatoCpfCnpj(row.cpf_cnpj)],
+            sortable: true,
+      ~~~ 
+
+    *   **🔡 - Nome/Razão Social:**
+    *   **Descrição:**  Campo que corresponde à coluna **razao_social** na tabela **contribuinte**.
+    *   **Tipo de Dado:** *varchar(100)*
+    *   **Restrição:** Não pode ser nulo (is not null)
+    *   **Código:**
+     ~~~
+        name:   "Nome/Razão social",
+                selector: row => [row.razao_social],
+                sortable: true,
+      ~~~ 
+
+    *   **🗺️ - Município/UF:**
+    *   **União dos campos:** cidade.nome + ‘ - ‘ + estado.uf ⇒
+    *   **Tabela**  ⇒  “cidade” ⇒ ”nome”     ⇒
+    *   **Tabela**  ⇒  “estado” ⇒ ”uf”       ⇒ varchar(2) 
+    *   **Código:**
+     ~~~
+        name: "Município/UF",
+            selector: row => [row.cidade.nome + ' - ' + row.cidade.estado.uf],
+            sortable: true,
+      ~~~ 
+      
+    *   **✅ - Situação:**
+    *   **Descrição:**  Campo corresponde à coluna **situacao** na tabela **contribuinte**.
+    *   **Tipo de Dado:**  tinyint(4);
+    *   **Restrição:** Não pode ser nulo (is not null)
+    *   **Código:**<br>
+            	0 - Inativo:<br> 
+			    1 - Ativo: <br>
+		 	    2 - óbito: <br>
+                     - Data do falecimento;<br>
+                     - Responsável pelo falecido ⇒ 
+     ~~~
+        row.contribuinte_fisico.obito_data)+ '- '+row.contribuinte_fisico.obito_nome_responsavel
+      ~~~ 
