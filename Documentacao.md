@@ -35,8 +35,8 @@
  12      | contato                     |                         | VARCHAR\(20\)           | Número de telefone do contribuinte, com DDD. <br> **Validação:** Se preenchido, deve conter apenas números, com o mínimo de dez dígitos.| 
  13      | contato2                    |                         | VARCHAR\(20\)           | Número de telefone do contribuinte, com DDD. <br> **Validação:** Se preenchido, deve conter apenas números, com o mínimo de dez dígitos.|      
  14      | contato\_wpp                |                         | VARCHAR\(20\)           | **Validação:** <br> 0 - não é whats app; <br> 1 - Sim é Whats app; |     
- 15      | tipo                        |                         | TINYINT\(4\)            | Tipo Juridico ou Fisico.<br> **Valores:** 0 - Fisico <br> 1 - Juridico                                                                                  |     
- 16      | CEP                         |                         | VARCHAR\(9\)            | Código de Endereçamento Postal - CEP. <br> **Validação:** Deve ser preenchido apenas com números, com 8 (oito) posições.                                                                                    |      
- 17      | endereco                    |                         | VARCHAR\(100\)          |                                       |      
- 18      | numero                      |                         | VARCHAR\(100\)          |                                                                           |   
- 19      | complemento                 |                         | VARCHAR\(200\)          |              |
+ 15      | tipo                        |                         | TINYINT\(4\)            | Tipo Juridico ou Fisico.<br> **Valores:** 0 - Fisico <br> 1 - Juridico|     
+ 16      | CEP                         |                         | VARCHAR\(9\)            | Código de Endereçamento Postal - CEP. <br> **Validação:** Deve ser preenchido apenas com números, com 8 (oito) posições.|      
+ 17      | endereco                    |                         | VARCHAR\(100\)          | Endereço do contribuinte|      
+ 18      | numero                      |                         | VARCHAR\(100\)          | Número do logradouro.<br> Se não houver número a ser informado, preencher com "S/N".|   
+ 19      | complemento                 |                         | VARCHAR\(200\)          | Complemento do logradouro.            |
