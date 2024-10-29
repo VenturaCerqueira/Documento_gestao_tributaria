@@ -16,3 +16,26 @@
 *   Por fim, a rota termina com /login, indicando a ação que está sendo realizada;
 
 ![alt text](image-1.png)
+
+
+ **\#**  | **Campo**                    | **Tabela Raiz**        | **Tipo/Tamanho**        | **Descrição**                                                                        |  
+:-------:|:---------------------------:|:-----------------------:|:-----------------------:|:------------------------------------------------------------------------------------:|
+ 1       | ID                          |                         | BIGINT \(20\) UN AI PK  | Identificador cadastro do contribuinte\.                                             |
+ 2       | fk\_pais                    | pais                    | BIGINT \(20\) UN        |                                                                                      |      
+ 3       | fk\_cidade                  | cidade                  | BIGINT\(20\) UN         |                                                                                      |    
+ 4       | fk\_tipo\_logradouro        | tipo\_logradouro        | BIGINT\(20\) UN         |                                                                                      |     
+ 5       | fk\_bairro                  | bairro                  | BIGINT\(20\) UN         |                                                                                      |      
+ 6       | fk\_imovel\_caracteristica  | imovel\_caracteristica  | BIGINT\(20\) UN         | Cadastro da entidade => empresa                                                      |      
+ 7       | razao\_social               |                         | VARCHAR\(100\)          |                                                                                      |      
+ 8       | fantasia                    |                         | VARCHAR\(100\)          | ADD \+ Campo caso "tipo" == 1 \(Tipo => Juridico\)                                   |      
+ 9       | cpf\_cnpj                   |                         | VARCHAR\(100\)          | Observação: Preencher com CPF/CNPJ válido\.                                          |      
+ 10      | email                       |                         | VARCHAR\(100\)          | "Endereço eletrônico\.                                                               |      
+ 11      | unidade                     |                         | VARCHAR\(20\)           | Validação:                                                                           |      
+ 12      | contato                     |                         | VARCHAR\(20\)           |  O e\-mail deve ser possuir o caractere ""@""                                        |      
+ 13      | contato2                    |                         | VARCHAR\(20\)           |  e este não pode estar no início e no fim do e\-mail\. Deve possuir no mínimo        |      
+ 14      | contato\_wpp                |                         | VARCHAR\(20\)           |  um caractere ""\."" depois do @ e não pode estar no início ou no final do e\-mail\. |     
+ 15      | tipo                        |                         | TINYINT\(4\)            | "                                                                                    |      
+ 16      | CEP                         |                         | VARCHAR\(9\)            |                                                                                      |     
+ 17      | endereco                    |                         | VARCHAR\(100\)          | "Número de telefone do contribuinte, com DDD\.                                       |     
+ 18      | numero                      |                         | VARCHAR\(100\)          | Validação:                                                                           |           
+ 19      | complemento                 |                         | VARCHAR\(200\)          |    Se preenchido, deve conter apenas números, com o mínimo de dez dígitos\.          |  
