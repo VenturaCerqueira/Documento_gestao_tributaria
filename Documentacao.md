@@ -17,7 +17,8 @@
 
 ![alt text](image-1.png)
 
- **\#** | **Campo**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        |
+|  #    Tabela de contribuinte |    
+ **\#**  | **Campo**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        |
 ---------|-----------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|
  1       | ID                          |                         | BIGINT \(20\) UN AI PK  | Identificador cadastro do contribuinte\.                                             |     
  2       | fk\_pais                    | pais                    | BIGINT \(20\) UN        |                                                                                      |      
