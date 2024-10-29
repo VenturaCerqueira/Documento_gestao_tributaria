@@ -40,3 +40,6 @@
  17      | endereco                    |                         | VARCHAR\(100\)          | Endereço do contribuinte|      
  18      | numero                      |                         | VARCHAR\(100\)          | Número do logradouro.<br> Se não houver número a ser informado, preencher com "S/N".|   
  19      | complemento                 |                         | VARCHAR\(200\)          | Complemento do logradouro.            |
+ 20      | site                        |                         | VARCHAR\(255\)          |                                       |
+ 21      | imagem                      |                         | VARCHAR(191)            | Apenas Arquivos imagem. |
+ 22      | situação                    |                         | TINYINT(4) NN           | **Valores válidos:** <br>SITUACAO_INATIVO = 0; <br> SITUACAO_ATIVO = 1;<br> SITUACAO_OBITO = 2; <br> **Regras:** <br> - Registro de falecimento;|
