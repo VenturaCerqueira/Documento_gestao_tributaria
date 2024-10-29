@@ -37,3 +37,6 @@
  # Tabela de Contribuinte Fisico:
   **\#**  | **Campo**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        |
 ----------|-----------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|
+ 1        | ID                          |                         | BIGINT UN AI PK         |                                                                                      | 
+ 2        | fk_contribuinte             | contribuinte            | BIGINT UN FK            | **Relação tabela cadastro com tipo => 0 - 'Fisico'                                   |
+ 3        | estrangeiro                 |                         |
