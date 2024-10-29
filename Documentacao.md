@@ -43,3 +43,12 @@
  20      | site                        |                         | VARCHAR\(255\)          |                                       |
  21      | imagem                      |                         | VARCHAR(191)            | Apenas Arquivos imagem. |
  22      | situação                    |                         | TINYINT(4) NN           | **Valores válidos:** <br>SITUACAO_INATIVO = 0; <br> SITUACAO_ATIVO = 1;<br> SITUACAO_OBITO = 2; <br> **Regras:** <br> - Registro de falecimento;|
+ 23      | observacoes                 |                         | Text                    | **Default/Expression:** Null |
+ 24      | prefeito_nome               |                         | VARCHAR(100)            |  Campo referente cadastro "entidade" => "empresa";|
+ 25      | prefeito_ass_digitalizada   |                         | VARCHAR(100)            |  Campo referente cadastro "entidade" => "empresa";|
+ 26      | chefe_setor_nome            |                         | VARCHAR(100)            |  Campo referente cadastro "entidade" => "empresa";|
+ 27      | chefe_setor_cargo           |                         | VARCHAR(100)            |  Campo referente cadastro "entidade" => "empresa";|
+ 28      | chefe_setor_portaria        |                         | VARCHAR(30)             |  Campo referente cadastro "entidade" => "empresa";|
+ 29      | chefe_setor_ass_digitalizada|                         | TEXT                    |  Campo referente cadastro "entidade" => "empresa";|    
+ 30      | created_at                  |                         | TTIMESTAMP              |  Campo referente data de cadastro contribuinte;|  
+ 31      | update_at                   |                         | TIMESTAMP               |  Campo referente data da ultima atualização do contribuinte;|  
