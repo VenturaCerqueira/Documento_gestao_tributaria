@@ -32,11 +32,11 @@
  9       | cpf\_cnpj                   |                         | VARCHAR\(100\)          | Observação: Preencher com CPF/CNPJ válido.                                           |      
  10      | email                       |                         | VARCHAR\(100\)          | Endereço eletrônico.<br> **Validação:** e-mail deve ser possuir o caractere "@"<br>  e este não pode estar no início e no fim do e-mail. Deve possuir no mínimo<br>  um caractere "." depois do @ e não pode estar no início ou no final do e-mail.                                                       |      
  11      | unidade                     |                         | VARCHAR\(20\)           |                                                                          |      
- 12      | contato                     |                         | VARCHAR\(20\)           | Número de telefone do contribuinte, com DDD. <br> **Validação:** Se preenchido, deve conter apenas números, com o mínimo de dez dígitos.                                        | 
- 13      | contato2                    |                         | VARCHAR\(20\)           |          |      
- 14      | contato\_wpp                |                         | VARCHAR\(20\)           |  |     
- 15      | tipo                        |                         | TINYINT\(4\)            |                                                                                     |     
- 16      | CEP                         |                         | VARCHAR\(9\)            |                                                                                      |      
+ 12      | contato                     |                         | VARCHAR\(20\)           | Número de telefone do contribuinte, com DDD. <br> **Validação:** Se preenchido, deve conter apenas números, com o mínimo de dez dígitos.| 
+ 13      | contato2                    |                         | VARCHAR\(20\)           | Número de telefone do contribuinte, com DDD. <br> **Validação:** Se preenchido, deve conter apenas números, com o mínimo de dez dígitos.|      
+ 14      | contato\_wpp                |                         | VARCHAR\(20\)           | **Validação:** <br> 0 - não é whats app; <br> 1 - Sim é Whats app; |     
+ 15      | tipo                        |                         | TINYINT\(4\)            | Tipo Juridico ou Fisico.<br> **Valores:** 0 - Fisico <br> 1 - Juridico                                                                                  |     
+ 16      | CEP                         |                         | VARCHAR\(9\)            | Código de Endereçamento Postal - CEP. <br> **Validação:** Deve ser preenchido apenas com números, com 8 (oito) posições.                                                                                    |      
  17      | endereco                    |                         | VARCHAR\(100\)          |                                       |      
  18      | numero                      |                         | VARCHAR\(100\)          |                                                                           |   
  19      | complemento                 |                         | VARCHAR\(200\)          |              |
