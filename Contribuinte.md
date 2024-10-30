@@ -38,5 +38,11 @@
   **\#**  | **Campo**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        |
 ----------|-----------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|
  1        | ID                          |                         | BIGINT UN AI PK         |                                                                                      | 
- 2        | fk_contribuinte             | contribuinte            | BIGINT UN FK            | **Relação tabela cadastro com tipo => 0 - 'Fisico'                                   |
- 3        | estrangeiro                 |                         |
+ 2        | fk_contribuinte             | contribuinte            | BIGINT UN FK            | Relação tabela cadastro com tipo => 0 - 'Fisico'                                     |
+ 3        | estrangeiro                 |                         | tinyint                 | **Validação:** 0 => Não é estrangeiro;<br> 1 => Estrangeiro;                         |
+ 4        | sexo                        |                         | tinyint                 | **Validação:** 0 => 'Masculino',<br> 1 => 'Feminino'|
+ 5        | rg                          |                         | Varchar(20)             | Preencher com o número do RG do contribuinte fisico.|
+ 6        | rg_orgao_emissor            |                         | Varchar(10)             |  |
+ 7        | rg_data_exp                 |                         | Date                    | |
+ 8        | cnh                         |                         | Varchar(15)             | |
+ 9        | cnh_categoria               |                         | tinyint                 |
