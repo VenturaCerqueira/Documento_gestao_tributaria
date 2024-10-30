@@ -4,7 +4,7 @@
 # Tabela de resumo dos cadastros
  **\#**  | **Referencia**                    | **Tabela**              | **Versão Layout**       | **Descrição**                                                                                                                                                   |
 ---------|-----------------------------------|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-01       | Registro bancario                 | banco                   |   e-1.0/2024            | Armazenamento dos dados bancários, coluna de integração com SIAFIC , incluso cadastro dos bancos com cadastro das chave Pix e credenciais para AP.<br> - **Cadastro de Bancos:** <br> 01 - nome; <br> 02 - Código;<br> 03 - Código contábil;<br> 04 - Código agência;<br> 05 - Código conta;<br> 06 - Código banco Siafic;   | 
+01       | Registro bancario                 | banco                   |   e-1.0/2024            | Armazenamento dos dados bancários, campos de integração com SIAFIC , incluso cadastro das chave Pix e credenciais para API.<br> - **Cadastro de Bancos:** <br> 01 - nome; <br> 02 - Código;<br> 03 - Código contábil;<br> 04 - Código agência;<br> 05 - Código conta;<br> 06 - Código banco Siafic;   | 
 02       | Retorno  bancario| retorno_banco| e-1.0/2024 | 
 
 
