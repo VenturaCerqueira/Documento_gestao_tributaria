@@ -10,22 +10,22 @@
 
 
 # Tabela de banco
- **\#**  | **Coluna**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        |
----------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|
-01       | id                           |                         | bigint UN AI PK         | |
-02       | nome                         |                         | Varchar(100)            | |
-03       | codigo                       |                         | varchar(5)              | |
-04       | Cod_contabil                 |                         | Varchar(30)             | |
-05       | Cod_agencia                  |                         | Varchar(20)             | |
-06       | Cod_conta                    |                         | Varchar(20)             | |
-07       | numero_convenio              |                         | Int                     | | 
-08       | chave_pix                    |                         | Varchar(100)            | |
-09       | client_id                    |                         | Varchar(255)            | | 
-10       | Client_secret                |                         | Varchar(255)            | |
-11       | app_key                      |                         | Varchar(255)            | |
-12       | cod_banco_siafic             |                         | Varchar(5)              | |
-13       | created_at                   |                         | timestamp               | |
-14       | update_at                    |                         | timestamp               | |
+ **\#**  | **Coluna**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
+---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
+01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
+02       | nome                         |                         | Varchar(100)            |                                                                                      | Nome - campo obrigatórios              |
+03       | codigo                       |                         | varchar(5)              |                                                                                      | Código - campo obrigatórios            |
+04       | Cod_contabil                 |                         | Varchar(30)             |                                                                                      | Código contábil                        |
+05       | Cod_agencia                  |                         | Varchar(20)             |                                                                                      | Código agência                         |
+06       | Cod_conta                    |                         | Varchar(20)             |                                                                                      | Código conta                           |
+07       | numero_convenio              |                         | Int                     |                                                                                      | Código banco Siafic                    | 
+08       | chave_pix                    |                         | Varchar(100)            |                                                                                      ||
+09       | client_id                    |                         | Varchar(255)            |                                                                                      || 
+10       | Client_secret                |                         | Varchar(255)            |                                                                                      ||
+11       | app_key                      |                         | Varchar(255)            |                                                                                      ||
+12       | cod_banco_siafic             |                         | Varchar(5)              |                                                                                      ||
+13       | created_at                   |                         | timestamp               |                                                                                      ||
+14       | update_at                    |                         | timestamp               |                                                                                      ||
 
 
 # Registro do retorno bancario - retorno_banco 
