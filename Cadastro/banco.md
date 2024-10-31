@@ -16,7 +16,7 @@
 # Regras:
  **\#**  |**Nome**                      |   **Descrição**                                               |
 ---------|------------------------------|---------------------------------------------------------------|      
-1        | Regra_unique_banco           |  *Codigo* e *nome* deve-se unico.       |
+1        | Regra_unique_banco           |  *Codigo* e *nome* deve-se unico.                             |
 
 
 
