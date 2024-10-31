@@ -8,28 +8,11 @@
 1        | veiculo_marca                |
 
 #
-#   ✅ - Tabelas relacionadas:
- **\#**  |**Nome Fisico**               |   **Relação** |
----------|------------------------------|---------------|      
-1        | veiculo                      |     n - 1     |
-
-#
-# 📄- Regras:
- **\#**  |**Nome**                      |   **Descrição**                                               |
----------|------------------------------|---------------------------------------------------------------|      
- 
-
 # Tabela de Veiculo_marca
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
 02       | descricao *                  |                         | varchar(100)            | Marcas de veículos.                                                                  |  Descrição                             |
-
-# ⚠️ Notas: 
-
-              
-
-# 📄 Mensagem de erros/advertências: 
 
 # Script insert: 
         INSERT INTO db_gestaotributaria.veiculo_marca (id, descricao, created_at, updated_at) VALUES
