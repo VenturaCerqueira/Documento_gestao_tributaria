@@ -1,18 +1,14 @@
 # e-contrib - Modelo e-2024 
-## Informações Pais
+## Informações veiculo
 
 # Tabela de resumo dos cadastros
  **\#**  | **Referencia**                    | **Tabela**              | **Versão Layout**       | **Descrição**                                                                                                                                                   |
 ---------|-----------------------------------|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-01       | Cadastro de pais                  | pais                    |   e-1.0/2024            | Importar dados de países usando os códigos ISO 3166 | 
+01       | Cadastro de marca de Veiculo      | Veiculo_marca           |   e-1.0/2024            | Importado banco atualizado 2024 - marca veiculos                                                                                                                | 
 
 
-# Tabela de Pais
+# Tabela de Veiculo_marca
  **\#**  | **Coluna**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | nome                         |                         | varchar(100)            |                                                                                      |                                        |
-03       | sigla2                       |                         | varchar(2)              | código de duas letras para identificar países é definido pela ISO 3166-1 alpha-2     |                                        |
-04       | sigla3                       |                         | varchar(3)              | Sigla de três caracteres para identificar países é padronizada pela ISO 3166-1 alpha-3.|                                      |
-05       | codigo                       |                         | varchar(10)             | Codificação ISO 3166-1 numeric.                                                      |                                        |
- 
+02       | descrição                    |                         | varchar(100)            |                                                                                      |                                        |
