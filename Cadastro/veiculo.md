@@ -16,12 +16,6 @@
 3        | lancamento                   |     n - n     |
 4        | contribuinte_receita         |     n - n     |
 
-#
-# 📄- Regras:
- **\#**  |**Nome**                      |   **Descrição**                                               |
----------|------------------------------|---------------------------------------------------------------|      
- 
-
 
 #
 # 🔢 - Campos
@@ -39,14 +33,6 @@
 10       | cor *                        |                         | varchar(20)             | Cor do veiculo.                                                                      | Cor                                    |
 11       | responsavel                  |                         | varchar(100)            | **Remover coluna**                                                                   |                                        |
 12       | status                       |                         | tinyint                 |                                                                                      |                                        |   
-
-
-# ⚠️ Notas: 
-
-.
-              
-
-# 📄 Mensagem de erros/advertências: 
 
 
 # Observação:
