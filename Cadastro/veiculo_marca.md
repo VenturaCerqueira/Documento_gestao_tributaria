@@ -1,7 +1,7 @@
 # e-contrib - Modelo e-2024 
 ## Informações veiculo
 
-# Tabela de resumo dos cadastros
+# Detalhes MVC  
  **\#**  | **Referencia**                    | **Tabela**              | **Versão Layout**       | **Descrição**                                                                                                                                                   |
 ---------|-----------------------------------|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 01       | Cadastro de marca de Veiculo      | Veiculo_marca           |   e-1.0/2024            | Importado banco atualizado 2024 - marca veiculos                                                                                                                | 
