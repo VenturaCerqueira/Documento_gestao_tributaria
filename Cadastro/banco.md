@@ -12,15 +12,15 @@
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
 02       | nome                         |                         | Varchar(100)            |                                                                                      | Nome - Campo obrigatórios              |
-03       | codigo                       |                         | varchar(5)              |                                                                                      | Código - Campo obrigatórios            |
-04       | Cod_contabil                 |                         | Varchar(30)             |                                                                                      | Código contábil                        |
-05       | Cod_agencia                  |                         | Varchar(20)             |                                                                                      | Código agência                         |
-06       | Cod_conta                    |                         | Varchar(20)             |                                                                                      | Código conta                           |
+03       | codigo                       |                         | varchar(5) UN           |                                                                                      | Código - Campo obrigatórios            |
+04       | Cod_contabil                 |                         | Varchar(30)             | **Regra banco:** Codigo deve-se unico                                                | Código contábil                        |
+05       | Cod_agencia                  |                         | Varchar(20)             | Código da Agência SIAFIC.                                                            | Código agência                         |
+06       | Cod_conta                    |                         | Varchar(20)             | Código da Conta SIAFIC.                                                              | Código conta                           |
 07       | numero_convenio              |                         | Int                     |                                                                                      | Código banco Siafic                    | 
-08       | chave_pix                    |                         | Varchar(100)            |                                                                                      ||
-09       | client_id                    |                         | Varchar(255)            |                                                                                      || 
-10       | Client_secret                |                         | Varchar(255)            |                                                                                      ||
-11       | app_key                      |                         | Varchar(255)            |                                                                                      ||
+08       | chave_pix                    |                         | Varchar(100)            | Chave de segurança fornecida do banco chave pix.                                     ||
+09       | client_id                    |                         | Varchar(255)            | Chave de segurança fornecida do banco chave pix.                                     || 
+10       | Client_secret                |                         | Varchar(255)            | Chave de segurança fornecida do banco chave pix.                                     ||
+11       | app_key                      |                         | Varchar(255)            | Chave de segurança do Banco do Brasil com API.                                       ||
 12       | cod_banco_siafic             |                         | Varchar(5)              | **Validação:** <br> Quando **cod_banco_siafic** estiver preenchido, ele deve ser usado no envio ao SIAFIC, ignorando o valor da coluna **codigo**.<br><br>Caso **cod_banco_siafic** estiver **"null"**, o campo codigo enviado normalmente.       ||
 
 
