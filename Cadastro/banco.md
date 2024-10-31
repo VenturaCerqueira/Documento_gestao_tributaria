@@ -1,12 +1,12 @@
 # e-contrib - Modelo e-2024 
-## Informações banco/ retorno bancario / lançamento baixa
+## 🏦 Cadastro - Banco 
 
 # Tabela de resumo dos cadastros
- **\#**  | **Referencia**                    | **Tabela**              | **Versão Layout**       | **Descrição**                                                                                                                                                   |
----------|-----------------------------------|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-01       | Registro bancario                 | banco                   |   e-1.0/2024            | Armazenamento dos dados bancários, campos de integração com SIAFIC , incluso cadastro das chave Pix e credenciais para API.<br> - **Cadastro de Bancos:** <br> 01 - nome; <br> 02 - Código;<br> 03 - Código contábil;<br> 04 - Código agência;<br> 05 - Código conta;<br> 06 - Código banco Siafic;   | 
-
-
+ **\#**  | **Referencia**                    | **Tabela**              | **Resumo**                                                                                                                                                   |
+---------|-----------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+01       | Registro bancario                 | banco                   | Armazenamento dos dados bancários, campos de integração com SIAFIC , incluso cadastro das chave Pix e credenciais para API.<br>  **- View:** <br> 01 - nome; <br> 02 - Código;<br> 03 - Código contábil;<br> 04 - Código agência;<br> 05 - Código conta;<br> 06 - Código banco Siafic;   | 
+02       | Lancamento da baixa               | lancamento_baixa        | Tabela dependente, contém a chave estrangeira fk_banco vinculada a lancamento_baixa, utilizada no processo de baixa da cota.                           |
+03       |  Retorno do banco                 | retorno_banco           | Tabela com dependência na chave estrangeira fk_banco, vinculada a retorno_banco, utilizada no processamento de retorno bancário.| 
 # Tabela de banco
  **\#**  | **Coluna**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
