@@ -49,3 +49,6 @@
 # 📄 Mensagem de erros/advertências: 
 
 
+# Observação:
+    Placam renavam e chassi devem ser unico. Não pode ser duplicado.
+    Status verifica funcionalidade

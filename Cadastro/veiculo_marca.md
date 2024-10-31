@@ -27,7 +27,7 @@
 
 # ⚠️ Notas: 
 
-        1- Quando cod_banco_siafic estiver preenchido, ele sera usado no envio ao SIAFIC, senão o campo codigo enviado.       
+              
 
 # 📄 Mensagem de erros/advertências: 
 
