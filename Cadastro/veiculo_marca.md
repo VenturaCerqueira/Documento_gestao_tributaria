@@ -1,19 +1,35 @@
-# e-contrib - Modelo e-2024 
-## Informações veiculo
+# e-contrib - Modelo e-2025 
+## 🚗 Cadastro - Veiculo Marca  
+### Cadastro de marca de veículos.
 
-# Detalhes MVC  
- **\#**  | **Referencia**                    | **Tabela**              | **Versão Layout**       | **Descrição**                                                                                                                                                   |
----------|-----------------------------------|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-01       | Cadastro de marca de Veiculo      | Veiculo_marca           |   e-1.0/2024            | Importado banco atualizado 2024 - marca veiculos                                                                                                                | 
+# 🎲 - Modelo de dados:
+ **\#**  |**Nome Fisico**               |
+---------|------------------------------|
+1        | veiculo_marca                |
 
+#
+#   ✅ - Tabelas relacionadas:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------|      
+1        | veiculo                      |     n - 1     |
+
+#
+# 📄- Regras:
+ **\#**  |**Nome**                      |   **Descrição**                                               |
+---------|------------------------------|---------------------------------------------------------------|      
+ 
 
 # Tabela de Veiculo_marca
- **\#**  | **Coluna**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
+ **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | descricao                    |                         | varchar(100)            |                                                                                      |                                        |
+02       | descricao *                  |                         | varchar(100)            | Marcas de veículos.                                                                  |  Descrição                             |
 
+# ⚠️ Notas: 
 
+        1- Quando cod_banco_siafic estiver preenchido, ele sera usado no envio ao SIAFIC, senão o campo codigo enviado.       
+
+# 📄 Mensagem de erros/advertências: 
 
 # Script insert: 
         INSERT INTO db_gestaotributaria.veiculo_marca (id, descricao, created_at, updated_at) VALUES
