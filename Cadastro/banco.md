@@ -55,4 +55,4 @@
         1- Quando cod_banco_siafic estiver preenchido, ele sera usado no envio ao SIAFIC, senão o campo codigo enviado.       
 
 # 📄 Mensagem de erros/advertências: 
-
+Ao tentar excluir um **banco** que possui relacionamentos com as tabelas lancamento ou contribuinte_receita, a operação será bloqueada devido à restrição de integridade referencial (chave estrangeira). Isso ocorre porque existem registros nessas tabelas que fazem referência ao banco, impedindo sua exclusão enquanto esses vínculos existirem.
