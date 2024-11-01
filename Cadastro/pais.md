@@ -1,18 +1,27 @@
-# e-contrib - Modelo e-2024 
-## Informações Pais
+# e-contrib - Modelo e-2025 
+## 🗺️ Cadastro - Países
+### Cadastro de países usando os códigos ISO 3166.
 
-# Tabela de resumo dos cadastros
- **\#**  | **Referencia**                    | **Tabela**              | **Versão Layout**       | **Descrição**                                                                                                                                                   |
----------|-----------------------------------|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-01       | Cadastro de pais                  | pais                    |   e-1.0/2024            | Importar dados de países usando os códigos ISO 3166 | 
+# 🎲 - Modelo de dados:
+ **\#**  |**Nome Fisico**               |
+---------|------------------------------|
+1        | pais                         |
 
-
-# Tabela de Pais
- **\#**  | **Coluna**                   | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
----------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
-01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | nome                         |                         | varchar(100)            |                                                                                      |                                        |
-03       | sigla2                       |                         | varchar(2)              | código de duas letras para identificar países é definido pela ISO 3166-1 alpha-2     |                                        |
-04       | sigla3                       |                         | varchar(3)              | Sigla de três caracteres para identificar países é padronizada pela ISO 3166-1 alpha-3.|                                      |
-05       | codigo                       |                         | varchar(10)             | Codificação ISO 3166-1 numeric.                                                      |                                        |
+#
+#   ✅ - Tabelas relacionadas:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------|      
+1        | nota_tomador                 |     1 - n     |
+2        | contribuinte                 |     1 - n     |
+3        | Tomador                      |     1 - n     | 
+4        | nota_contribuinte            |     1 - n     |
+#
+# 🔢 - Campos
+ **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                           | **Campo sistema**                      |
+---------|------------------------------|-------------------------|-------------------------|-----------------------------------------------------------------------------------------|----------------------------------------|
+01       | id                           |                         | bigint UN AI PK         |                                                                                         |                                        |
+02       | nome                         |                         | varchar(100)            | Nome dos países.                                                                        |                                        |
+03       | sigla2                       |                         | varchar(2)              | código de duas letras para identificar países é definido pela ISO 3166-1 alpha-2        |                                        |
+04       | sigla3                       |                         | varchar(3)              | Sigla de três caracteres para identificar países é padronizada pela ISO 3166-1 alpha-3. |                                        |
+05       | codigo                       |                         | varchar(10)             | Codificação ISO 3166-1 numeric.                                                         |                                        |
  

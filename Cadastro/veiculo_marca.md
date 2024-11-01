@@ -14,6 +14,14 @@
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
 02       | descricao *                  |                         | varchar(100)            | Marcas de veículos.                                                                  |  Descrição                             |
 
+
+
+# Ações / botões:
+ **\#**  |**Nome**                      |   **Função**  |
+---------|------------------------------|---------------|
+1        | Editar                       |               |
+2        | Excluir                      |               |
+
 # Script insert: 
         INSERT INTO db_gestaotributaria.veiculo_marca (id, descricao, created_at, updated_at) VALUES
             (1, 'Acura', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),

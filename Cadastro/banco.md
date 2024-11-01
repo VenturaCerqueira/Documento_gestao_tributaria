@@ -7,11 +7,19 @@
 ---------|------------------------------|
 1        | banco                        |
 
-#   Tabelas relacionadas:
+#   ✅ - Tabelas dependente:
  **\#**  |**Nome Fisico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 1        | lancamento_baixa             |     1 - n     |
 2        | retorno_banco                |     1 - n     |
+
+#   ✅ - Tabelas relacionadas:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------| 
+1        | lancamento                   |     n - 1     |
+2        | contribuinte_receita         |     n - 1     |
+
+
 
 # Regras:
  **\#**  |**Nome**                      |   **Descrição**                                               |
@@ -36,6 +44,11 @@
 11       | app_key                      |                         | Varchar(255)            | Chave de segurança do Banco do Brasil com API.                                       ||
 12       | cod_banco_siafic             |                         | Varchar(5)              | Código do banco para o SIAFIC. (nota-1)                                              ||
 
+# Ações / botões:
+ **\#**  |**Nome**                      |   **Função**  |
+---------|------------------------------|---------------|
+1        | Editar                       |               |
+2        | Excluir                      |               |
 
 # ⚠️ Notas: 
 
