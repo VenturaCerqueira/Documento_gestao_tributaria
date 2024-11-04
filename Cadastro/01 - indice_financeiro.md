@@ -1,7 +1,6 @@
 # e-contrib - Modelo e-2025 
-##  Cadastro - Item de serviço  
-### Lista de item de serviço seguinte Lei 116/
-https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm
+##  Cadastro - Idice Financeiro  
+### 
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
@@ -22,10 +21,7 @@ https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | codigo *                     |                         | varchar(10)             | códigos específicos de serviços. <br> O primeiro número identifica o grupo principal de serviço.<br> O segundo número identifica um serviço específico dentro daquele grupo.|  Código                                |
-03       | descricao *                  |                         | text                    | Descrição do serviço.                                                                         |  Descrição                             |
-04       | aliquota *                   |                         | decimal(12,2)           | Aliquota da nota de serviço entre 2% e 5%.                                                                                     |  Alíquota                              |
-         
+02       | nome                         |                         | varchar(100)            |                                                                                      |  Código                                |
 
 # Ações / botões:
  **\#**  |**Nome**                      |   **Função**  |
