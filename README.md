@@ -31,14 +31,14 @@
 
 ## 4. Imobiliário
 ### Tabelas
-      - **01 - CIP.md**
-      - **02 - Tipo_logradouro.md**
-      - **03 - logradouro.md**
-      - **04 - aliquota_iptu.md**
-      - **05 - info_imovel.md**
-      - **06 - caracteristica_imovel.md**
-      - **07 - item_caracteristica_imovel.md**
-      - **08 - loteamento.md**
+- **01 - CIP.md**
+ - **02 - Tipo_logradouro.md**
+- **03 - logradouro.md**
+- **04 - aliquota_iptu.md**
+- **05 - info_imovel.md**
+- **06 - caracteristica_imovel.md**
+- **07 - item_caracteristica_imovel.md**
+- **08 - loteamento.md**
 
 - **imovel.md**
 - **logradouro.md**
