@@ -5,7 +5,7 @@
 # Sumário de Documentos de Gestão Tributária
 
 ## 1. Cadastro
-- [01 - índice_financeiro](Cadastro/01-indice_financeiro)
+- [01 - índice_financeiro](/Cadastro/01%20-%20indice_financeiro.md)
 - [02 - multa](Cadastro/02-multa)
 - [03 - juros](Cadastro/03-juros)
 - [04 - tipo_de_receita](Cadastro/04-tipo_de_receita)
