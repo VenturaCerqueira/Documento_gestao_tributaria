@@ -6,9 +6,9 @@
 
 ## 1. Cadastro
 - [01 - índice_financeiro](/Cadastro/01%20-%20indice_financeiro.md)
-- [02 - multa](Cadastro/02-multa)
-- [03 - juros](Cadastro/03-juros)
-- [04 - tipo_de_receita](Cadastro/04-tipo_de_receita)
+- [02 - multa](Cadastro/02%20-%20multa.md)
+- [03 - juros](/Cadastro/03%20-%20juros.md)
+- [04 - tipo_de_receita](Cadastro/04%20-%20tipo_de_receita.md)
 - [05 - conta_contabil](Cadastro/05-conta_contabil)
 - [06 - classificacao_receita](Cadastro/06-classificacao_receita)
 - [07 - receitas](Cadastro/07-receitas)
