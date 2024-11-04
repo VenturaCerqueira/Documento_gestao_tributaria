@@ -47,3 +47,195 @@
 ## 5. Nota Fiscal Avulsa
 
 ## 6. Processamento
+
+
+#
+##  Cadastro - Idice Financeiro  
+### 
+
+# 🎲 - Modelo de dados:
+ **\#**  |**Nome Fisico**               |
+---------|------------------------------|
+1        | iten_servico                 |
+
+#
+#   ✅ - Tabelas relacionadas:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------|      
+1        | cnae_item_servico            |     1 - n     |
+2        | Contribuinte_juridico        |     1 - n     |
+3        | nota_contribuinte            |     1 - n     |
+4        | nota                         |     1 - n     |
+
+#
+# 🔢 - Campos
+ **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
+---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
+01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
+02       | nome                         |                         | varchar(100)            |                                                                                      |  Código                                |
+
+# Ações / botões:
+ **\#**  |**Nome**                      |   **Função**  |
+---------|------------------------------|---------------|
+1        | Editar                       |               |
+
+
+#
+
+##  Cadastro - Multa  
+### 
+
+# 🎲 - Modelo de dados:
+ **\#**  |**Nome Fisico**               |
+---------|------------------------------|
+01       |  multa                       |
+
+#
+#   ✅ - Tabelas relacionadas:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------|      
+01       | receita_tipo                 |      1 - n    |
+
+#
+# 🔢 - Campos
+ **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
+---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
+01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
+02       | descricao                    |                         | varchar(30)             |                                                                                      |  Descrição                             |
+03       | competencia                  |                         | Date                    |                                                                                      |  Competência                           |
+
+# Ações / botões:
+ **\#**  |**Nome**                      |   **Função**  |
+---------|------------------------------|---------------|
+1        | Editar                       |               |
+2        | view                         |               |
+3        | excluir                      |               |
+
+
+
+#
+
+
+##  Cadastro - Juros
+### 
+
+# 🎲 - Modelo de dados:
+ **\#**  |**Nome Fisico**               |
+---------|------------------------------|
+01       | juros                        |
+
+#
+#   ✅ - Tabelas relacionadas:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------|      
+01       | receita_tipo                 |     1 - n     |
+
+#
+# 🔢 - Campos
+ **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
+---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
+01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
+02       | descricao*                   |                         | varchar(30)             |                                                                                      |  Descrição                             |
+03       | competencia*                 |                         | date                    |                                                                                      |  Competência                           |
+04       | percentual*                  |                         | decimal(15,2)           |                                                                                      |  Percentual/mês                        |
+
+# Ações / botões:
+ **\#**  |**Nome**                      |   **Função**  |
+---------|------------------------------|---------------|
+1        | Editar                       |               |
+2        | excluir                      |               |
+
+
+
+#
+
+
+##  Cadastro - Tipo de receita 
+### 
+
+# 🎲 - Modelo de dados:
+ **\#**  |**Nome Fisico**               |
+---------|------------------------------|
+01       | receita_tipo                 |
+
+#
+#   ✅ - Tabelas relacionadas:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------|      
+01       | conta_contabil               |     1 - N     |
+
+#   ✅ - Tabelas dependente:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------| 
+01       | indice_financeiro            |     1 - 1     |
+02       | juros                        |     1 - 1     |
+03       | multa                        |     1 - 1     |
+
+
+#
+# 🔢 - Campos
+ **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
+---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
+01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
+02       | fk_indice                    | indice_financeiro       | bigint(20)              |                                                                                      | Índice                                 |
+03       | fk_multa*                    | multa                   | bigint(20)              |                                                                                      | Multa                                  |
+04       | fk_juros*                    | juros                   | bigint(20)              |                                                                                      | Juros                                  |
+05       | descricao*                   |                         | varchar(100)            |                                                                                      | Descrição                              |   
+06       | natureza*                    |                         | tinyint(3)              |                                                                                      | Natureza                               |
+
+# Ações / botões:
+ **\#**  |**Nome**                      |   **Função**  |
+---------|------------------------------|---------------|
+1        | Excluir                      |               |
+
+
+# Observação:
+    Apenas cadastros acima de 10 são permitidos excluir. 
+
+
+#
+
+
+##  Cadastro - Conta contábil 
+### 
+
+# 🎲 - Modelo de dados:
+ **\#**  |**Nome Fisico**               |
+---------|------------------------------|
+01       | conta_contabil               |
+
+#
+#   ✅ - Tabelas relacionadas:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------|      
+01       | lancamento                   |     1 - N     |
+02       | receita_classificacao        |     1 - N     |
+
+
+#   ✅ - Tabelas dependente:
+ **\#**  |**Nome Fisico**               |   **Relação** |
+---------|------------------------------|---------------| 
+01       | receita_tipo                 |     1 - N     |
+
+
+#
+# 🔢 - Campos
+ **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
+---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
+01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
+02       | fK_receita_tipo*             | receita_tipo            | bigint(20)              |                                                                                      | Tipo de receita                        |
+03       | codigo*                      |                         | varchar(50)             |                                                                                      | Código                                 |
+04       | descricao*                   |                         | varchar(200)            |                                                                                      | Descrição                              |
+05       | sigla*                       |                         | varchar(10)             |                                                                                      | Sigla                                  |
+
+
+# Ações / botões:
+ **\#**  |**Nome**                      |   **Função**  |
+---------|------------------------------|---------------|
+1        | Editar                       |               |
+2        | excluir                      |               |
+
+
+
+
+
