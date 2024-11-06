@@ -29,4 +29,4 @@ Utilizada para corrigir valores monetários ou ajustar tributos ao longo do temp
 ---------|------------------------------|---------------|
 1        | Editar                       |               |
 
- [Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) | [Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/02%20-%20multa.md)  
+ 🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/02%20-%20multa.md)  
