@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Idice Financeiro  
-### 
+### Utilizada para corrigir valores monetários ou ajustar tributos ao longo do tempo, levando em conta a inflação ou outras variações econômicas, exemplo: IPC, IGPM e outros. 
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
@@ -22,7 +22,7 @@
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | nome                         |                         | varchar(100)            |                                                                                      |  Código                                |
+02       | nome                         |                         | varchar(100)            |  nome do indice monetários.                                                          |  Código                                |
 
 # Ações / botões:
  **\#**  |**Nome**                      |   **Função**  |
