@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Juros
-Juros são acréscimos financeiros aplicados sobre valores devidos, geralmente em casos de atraso no pagamento de impostos, taxas ou outras obrigações fiscais. São calculados mensalmente com base em um percentual definido para cada competência.
+Juros para acréscimos financeiros aplicados sobre valores devidos, geralmente em casos de atraso no pagamento de impostos, taxas ou outras obrigações fiscais. São calculados mensalmente com base em um percentual definido para cada competência.
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |

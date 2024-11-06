@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ## 🗺️ Cadastro - Estado
-### Cadastro de estado base IBGE - BRASIL.
+Cadastro de estado base IBGE - BRASIL.
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
@@ -24,5 +24,5 @@
 04       | ibge                         |                         | int                     | **Campo sem utilização**                                                             |                                        |
 05       | aliq_icms_interna            |                         | decimal(12,2)           | **Campo sem utilização**                                                             |                                        |
 
-
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/16%20-%20cidade.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
  

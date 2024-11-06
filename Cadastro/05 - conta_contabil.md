@@ -28,8 +28,8 @@ Cadastro de tributos com classificação detalhada, incluindo código contábil,
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
 02       | fK_receita_tipo*             | receita_tipo            | bigint(20)              | Código *"id"* da tabela *tipo_receita*.                                              | Tipo de receita                        |
 03       | codigo*                      |                         | varchar(50)             | Código da conta contabil.                                                            | Código                                 |
-04       | descricao*                   |                         | varchar(200)            | Detalhamento do imposto ou taxa cobrado, explicando seu propósito.                   | Descrição                              |
-05       | sigla*                       |                         | varchar(10)             | Abreviação do tipo de tributo                                                        | Sigla                                  |
+04       | descricao*                   |                         | varchar(200)            | Detalhamento da conta contabil, descrevendo natureza.                                | Descrição                              |
+05       | sigla*                       |                         | varchar(10)             | Sgila do tributo, exemplos: IPTU, TFF e outras abreviações.                          | Sigla                                  |
 
 
 # Ações / botões:

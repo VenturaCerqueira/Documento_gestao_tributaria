@@ -29,8 +29,8 @@ Cadastro de **receitas tributárias**, incluindo exemplos como **impostos, taxas
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
 02       | fk_indice                    | indice_financeiro       | bigint(20)              | Campo referente ao tipo de índice financeiro cadastrado.                             | Índice                                 |
 03       | fk_multa*                    | multa                   | bigint(20)              | Campo referente a multa para receita.                                                | Multa                                  |
-04       | fk_juros*                    | juros                   | bigint(20)              | Campo referente ao tipo do juros da receit.                                          | Juros                                  |
-05       | descricao*                   |                         | varchar(100)            | Nome da receitas tributárias.                                                        | Descrição                              |   
+04       | fk_juros*                    | juros                   | bigint(20)              | Campo referente ao tipo do juros da receita.                                         | Juros                                  |
+05       | descricao*                   |                         | varchar(100)            | Nome das receitas tributárias.                                                        | Descrição                              |   
 06       | natureza*                    |                         | tinyint(3)              | Referente ao tipo de naturaza juridca do tributos. <br> **Valores válidos:** <br> 1 - Tributária; <br> 2 - Não tributária;                                                                                  | Natureza                               |
 
 # Ações / botões:
