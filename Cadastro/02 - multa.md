@@ -29,4 +29,4 @@
 2        | view                         |               |
 3        | excluir                      |               |
 
- [Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) [Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/03%20-%20juros.md) |   
+ [Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/01%20-%20indice_financeiro.md) | [Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/03%20-%20juros.md) | [Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria)  
