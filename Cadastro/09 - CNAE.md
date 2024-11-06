@@ -35,3 +35,4 @@ Cadastro de CNAE (Classificação Nacional de Atividades Econômicas) padronizad
 ---------|------------------------------|---------------|
 1        | Editar                       |               |
 
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/08%20-%20tipos_procedimento.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/10%20-%20item_servico.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
