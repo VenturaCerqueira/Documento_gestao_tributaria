@@ -1,8 +1,10 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - CNAE
-### 
-
+Cadastro de CNAE (Classificação Nacional de Atividades Econômicas) padronizado para classificar as atividades econômicas exercidas por empresas e profissionais.<br>
+**Padrão cadastro:**
+**- Código CNAE:** Cada atividade econômica é identificada por um código numérico específico, conhecido como código CNAE. Esse código indica o setor de atuação da empresa e auxilia no enquadramento tributário e em obrigações fiscais.<br>
+ 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
 ---------|------------------------------|
