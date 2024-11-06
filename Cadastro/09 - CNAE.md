@@ -2,9 +2,9 @@
 # e-contrib - Modelo e-2025 
 ##  Cadastro - CNAE
 Cadastro de CNAE (Classificação Nacional de Atividades Econômicas) padronizado para classificar as atividades econômicas exercidas por empresas e profissionais.<br>
-**Padrão cadastro:**
+**Padrão cadastro:**<br>
 **- Código CNAE:** Cada atividade econômica é identificada por um código numérico específico, conhecido como código CNAE. Esse código indica o setor de atuação da empresa e auxilia no enquadramento tributário e em obrigações fiscais.<br>
- 
+
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
 ---------|------------------------------|
