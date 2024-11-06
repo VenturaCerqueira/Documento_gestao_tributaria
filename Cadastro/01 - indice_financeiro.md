@@ -29,4 +29,4 @@
 ---------|------------------------------|---------------|
 1        | Editar                       |               |
 
- [Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria)   
+ [Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) | [Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/02%20-%20multa.md)  

@@ -31,4 +31,4 @@
 
 # Ações / botões:
                                                                  
-  [Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria)   
+  [Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) | [Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/04%20-%20tipo_de_receita.md)   
