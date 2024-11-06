@@ -2,8 +2,6 @@
 # e-contrib - Modelo e-2025 
 ##  Cadastro - CNAE
 Cadastro de CNAE (Classificação Nacional de Atividades Econômicas) padronizado para classificar as atividades econômicas exercidas por empresas e profissionais.<br>
-**Padrão cadastro:**<br>
-**- Código CNAE:** Cada atividade econômica é identificada por um código numérico específico, conhecido como código CNAE. Esse código indica o setor de atuação da empresa e auxilia no enquadramento tributário e em obrigações fiscais.<br>
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
@@ -27,8 +25,8 @@ Cadastro de CNAE (Classificação Nacional de Atividades Econômicas) padronizad
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | codigo                       |                         | varchar(14)             |                                                                                      |  Código                                |
-03       | descricao                    |                         | text                    |                                                                                      |  Descrição                             |
+02       | codigo                       |                         | varchar(14)             | Codigo das atividade econômica é identificada por um código numérico específico, conhecido como código CNAE. Esse código indica o setor de atuação da empresa e auxilia no enquadramento tributário e em obrigações fiscais.                                                                                     |  Código                                |
+03       | descricao                    |                         | text                    | Descrição padronizada, que especifica a atividade econômica correspondente.                                                                                      |  Descrição                             |
 04       | percentual                   |                         | decimal(15,2)           |                                                                                      |  Percentual                            |
 
 
