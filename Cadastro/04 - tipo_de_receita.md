@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Tipo de receita 
-Cadastro de receitas tributárias, incluindo exemplos como impostos, taxas e contribuições. Essas receitas têm fundamento legal na Constituição e em leis específicas. O cadastro também inclui informações sobre o índice financeiro, a taxa de juros, a multa aplicável e a natureza jurídica de cada receita, indicando se é tributária ou não tributária  
+Cadastro de **receitas tributárias**, incluindo exemplos como **impostos, taxas** e **contribuições**. Essas receitas têm fundamento legal na Constituição e em leis específicas. O cadastro também inclui informações sobre o índice financeiro, a taxa de juros, a multa aplicável e a natureza jurídica de cada receita, indicando se é **tributária** ou **não tributária**.  
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
