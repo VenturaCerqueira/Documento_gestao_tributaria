@@ -31,7 +31,7 @@
 03       | fk_multa*                    | multa                   | bigint(20)              | Campo referente a multa para receita.                                                | Multa                                  |
 04       | fk_juros*                    | juros                   | bigint(20)              | Campo referente ao tipo do juros da receit.                                          | Juros                                  |
 05       | descricao*                   |                         | varchar(100)            | Nome da receitas tributárias.                                                        | Descrição                              |   
-06       | natureza*                    |                         | tinyint(3)              | Referente ao tipo de naturaza juridca do tributos. <br> **Valores válidos: <br> 1 - Tributária; <br> 2 - Não tributária;                                                                                  | Natureza                               |
+06       | natureza*                    |                         | tinyint(3)              | Referente ao tipo de naturaza juridca do tributos. <br> **Valores válidos:** <br> 1 - Tributária; <br> 2 - Não tributária;                                                                                  | Natureza                               |
 
 # Ações / botões:
  **\#**  |**Nome**                      |   **Função**  |
