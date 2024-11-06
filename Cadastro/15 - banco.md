@@ -57,3 +57,5 @@ Armazenamento dos dados bancários para pagamentos dos DAM's.
 
 # 📄 Mensagem de erros/advertências: 
 Ao tentar excluir um **banco** que possui relacionamentos com as tabelas lancamento ou contribuinte_receita, a operação será bloqueada devido à restrição de integridade referencial (chave estrangeira). Isso ocorre porque existem registros nessas tabelas que fazem referência ao banco, impedindo sua exclusão enquanto esses vínculos existirem.
+
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/14%20-%20tipo_movimentacao.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/16%20-%20cidade.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 

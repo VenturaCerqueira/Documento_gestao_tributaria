@@ -48,4 +48,6 @@
     
 # Observação:
     Placam renavam e chassi devem ser unico. Não pode ser duplicado.
-    Status verifica funcionalidade
+    Status verifica funcionalidade.
+
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/11%20-%20veiculo_marca.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/13%20-%20bairro.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 

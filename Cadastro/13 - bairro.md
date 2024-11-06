@@ -37,4 +37,4 @@
 1        | Editar                       |               |
 2        | Excluir                      |               |
 
-
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/12%20-%20veiculo.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/14%20-%20tipo_movimentacao.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
