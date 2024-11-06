@@ -1,3 +1,6 @@
+
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/08%20-%20tipos_procedimento.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/10%20-%20item_servico.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
+
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - CNAE
@@ -34,5 +37,8 @@ Cadastro de CNAE (Classificação Nacional de Atividades Econômicas) padronizad
  **\#**  |**Nome**                      |   **Função**  |
 ---------|------------------------------|---------------|
 1        | Editar                       |               |
+
+
+
 
 ↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/08%20-%20tipos_procedimento.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/10%20-%20item_servico.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
