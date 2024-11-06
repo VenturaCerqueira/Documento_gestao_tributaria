@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Tipo de receita 
-### 
+### Cadastro de receitas tributárias, incluindo exemplos como impostos, taxas e contribuições. Essas receitas têm fundamento legal na Constituição e em leis específicas. O cadastro também inclui informações sobre o índice financeiro, a taxa de juros, a multa aplicável e a natureza jurídica de cada receita, indicando se é tributária ou não tributária  
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
@@ -27,11 +27,11 @@
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | fk_indice                    | indice_financeiro       | bigint(20)              |                                                                                      | Índice                                 |
-03       | fk_multa*                    | multa                   | bigint(20)              |                                                                                      | Multa                                  |
-04       | fk_juros*                    | juros                   | bigint(20)              |                                                                                      | Juros                                  |
-05       | descricao*                   |                         | varchar(100)            |                                                                                      | Descrição                              |   
-06       | natureza*                    |                         | tinyint(3)              |                                                                                      | Natureza                               |
+02       | fk_indice                    | indice_financeiro       | bigint(20)              | Campo referente ao tipo de índice financeiro cadastrado.                             | Índice                                 |
+03       | fk_multa*                    | multa                   | bigint(20)              | Campo referente a multa para receita.                                                | Multa                                  |
+04       | fk_juros*                    | juros                   | bigint(20)              | Campo referente ao tipo do juros da receit.                                          | Juros                                  |
+05       | descricao*                   |                         | varchar(100)            | Nome da receitas tributárias.                                                        | Descrição                              |   
+06       | natureza*                    |                         | tinyint(3)              | Referente ao tipo de naturaza juridca do tributos. <br> **Valores válidos: <br> 1 - Tributária; <br> 2 - Não tributária;                                                                                  | Natureza                               |
 
 # Ações / botões:
  **\#**  |**Nome**                      |   **Função**  |
