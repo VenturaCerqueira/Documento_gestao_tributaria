@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Conta contábil 
-Cadastro de tributos com classificação detalhada, incluindo código contábil, abreviação do tributo, descrição completa e tipo de receita. Cada tributo é categorizado por tipo de receita, como impostos, taxas e outras receitas.
+Cadastro de conta contábil com classificação detalhada, incluindo código contábil, abreviação do tributo, descrição completa e tipo de receita. Cada tributo é categorizado por tipo de receita, como impostos, taxas e outras receitas.
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
 ---------|------------------------------|
