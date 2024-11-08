@@ -5,8 +5,13 @@
 ##  Cadastro - Idice Financeiro  
 Utilizada para corrigir valores monetários ou ajustar tributos ao longo do tempo, levando em conta a inflação ou outras variações econômicas, **exemplo:** IPC, IGPM e outros. 
 # Rotas/routes:
+✅ Lista de Índices financeiro:
 - http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro
+
+✅ Novo Índice financeiro:
 - http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/criar
+
+✅ Índices financeiro editar os Índice por mês:
 - http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/editar/**Índice_selecionado**
 
 # 🎲 - Modelo de dados:
@@ -39,8 +44,8 @@ Utilizada para corrigir valores monetários ou ajustar tributos ao longo do temp
  **\#**  | **Nome**                     | **Tabela Raiz**          | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|--------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                          | bigint UN AI PK         |                                                                                      |                                        |
-02       | fk_indice                    |indice_financeiro_correcao| bigint UN               |                                                                                      |                                        |
-03       | competencia                  |                          | date                    |                                                                                      | Ano                                    |
+02       | fk_indice                    |indice_financeiro_correcao| bigint UN               | Código *"id"* da tabela de indice_financeiro                                         |                                        |
+03       | competencia                  |                          | date                    | Data de competência do ajuste da inflação.                                           | Ano                                    |
 04       | percentual                   |                          | decimal(15,2)           | Cadastro do indicador da inflação                                                    | IPCA ACUMULADO %                       |
 
 # Ações / botões:
