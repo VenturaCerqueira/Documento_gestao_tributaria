@@ -11,7 +11,7 @@ Utilizada para corrigir valores monetários ou ajustar tributos ao longo do temp
 ✅ Novo Índice financeiro:
 - http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/criar
 
-✅ Índices financeiro editar os Índice por mês:
+✅ Índices financeiro editar por competência:
 - http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/editar/**Índice_selecionado**
 
 # 🎲 - Modelo de dados:
