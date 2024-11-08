@@ -4,14 +4,11 @@
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Idice Financeiro  
 Utilizada para corrigir valores monetários ou ajustar tributos ao longo do tempo, levando em conta a inflação ou outras variações econômicas, **exemplo:** IPC, IGPM e outros. 
-# Sistema:
-Lista de Índices financeiro
-![alt text](image.png)
-**Data:** *08/11/2024*
- Novo Índice financeiro
-![alt text](image-1.png)
-Cadastro dos índice por mês/ano
-![alt text](image-2.png)
+# Rotas/routes:
+- http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro
+- http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/criar
+- http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/editar/**Índice selecionado**
+
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
 ---------|------------------------------|
@@ -35,7 +32,7 @@ Cadastro dos índice por mês/ano
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | nome                         |                         | varchar(100)            |  nome do indice monetários.                                                          |  Código                                |
+02       | nome  *                      |                         | varchar(100)            |  nome do indice monetários.                                                          |  Nome                                  |
 
 #
 # 🔢 - Campos de 02 - indice_financeiro_correcao:
@@ -43,8 +40,8 @@ Cadastro dos índice por mês/ano
 ---------|------------------------------|--------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                          | bigint UN AI PK         |                                                                                      |                                        |
 02       | fk_indice                    |indice_financeiro_correcao| bigint UN               |                                                                                      |                                        |
-03       | competencia                  |                          | date                    |                                                                                      |                                        |
-04       | percentual                   |                          | decimal(15,2)           |                                                                                      |                                        |
+03       | competencia                  |                          | date                    |                                                                                      | Ano                                    |
+04       | percentual                   |                          | decimal(15,2)           | Cadastro do indicador da inflação                                                    | IPCA ACUMULADO %                       |
 
 # Ações / botões:
  **\#**  |**Nome**                      |   **Função**  |
