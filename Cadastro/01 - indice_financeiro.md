@@ -7,7 +7,7 @@ Utilizada para corrigir valores monetários ou ajustar tributos ao longo do temp
 # Rotas/routes:
 - http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro
 - http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/criar
-- http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/editar/**Índice selecionado**
+- http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/indices-financeiro/editar/**Índice_selecionado**
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
