@@ -6,18 +6,18 @@
 ### 
 
 # 🎲 - Modelo de dados:
- **\#**  |**Nome Fisico**               |
+ **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 01       | receita_classificacao        |
 
 #
 #   ✅ - Tabelas relacionadas:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 01       | conta_contabil               |     1 - N     |
 
 #   ✅ - Tabelas dependente:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------| 
 01       | indice_financeiro            |     1 - 1     |
 02       | juros                        |     1 - 1     |

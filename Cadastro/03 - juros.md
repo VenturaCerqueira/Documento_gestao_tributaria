@@ -7,13 +7,13 @@
 Juros para acréscimos financeiros aplicados sobre valores devidos, geralmente em casos de atraso no pagamento de impostos, taxas ou outras obrigações fiscais. São calculados mensalmente com base em um percentual definido para cada competência.
 
 # 🎲 - Modelo de dados:
- **\#**  |**Nome Fisico**               |
+ **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 01       | juros                        |
 
 #
 #   ✅ - Tabelas relacionadas:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 01       | receita_tipo                 |     1 - n     |
 

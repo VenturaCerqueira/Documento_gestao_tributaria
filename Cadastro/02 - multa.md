@@ -3,11 +3,11 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Multa  
-Cadastro das multas aplicado para calculo no DAM's, podendo cadastrar prazo inicial, prazo final e porcentual sobre-as.
+Cadastro das multas aplicado para cálculo no DAM's, podendo cadastrar prazo inicial, prazo final e porcentual sobre-as.
 
 #
 # 🎲 - Modelo de dados:
- **\#**  |**Nome Fisico**               |
+ **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 01       |  multa                       |
 02       |  multa_prazo                 |
@@ -25,7 +25,7 @@ Cadastro das multas aplicado para calculo no DAM's, podendo cadastrar prazo inic
 
 #
 #   ✅ - Tabelas relacionadas: 01 - Multa:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 01       | receita_tipo                 |      1 - n    |
 
