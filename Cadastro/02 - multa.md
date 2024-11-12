@@ -5,25 +5,49 @@
 ##  Cadastro - Multa  
 Cadastro das multas aplicado para calculo no DAM's, podendo cadastrar prazo inicial, prazo final e porcentual sobre-as.
 
+#
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Fisico**               |
 ---------|------------------------------|
 01       |  multa                       |
+02       |  multa_prazo                 |
 
 #
-#   ✅ - Tabelas relacionadas:
+# Rotas/routes:
+✅ Lista de Multa:
+- http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/juros
+
+✅ Novo Multa:
+- http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/juros/criar
+
+✅ Multa editar:
+- http://www.e-contrib.com.br/gestaotributaria/**entidade**/cadastros/juros/editar/**multa_selecionado**
+
+#
+#   ✅ - Tabelas relacionadas: 01 - Multa:
  **\#**  |**Nome Fisico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 01       | receita_tipo                 |      1 - n    |
 
 #
-# 🔢 - Campos
+# 🔢 - Campos tabela: 01 - multa  
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
 02       | descricao                    |                         | varchar(30)             | Campo texto sobre a natureza da multa.                                               |  Descrição                             |
 03       | competencia                  |                         | Date                    | Campo período fiscal ao qual a multa se refere.                                      |  Competência                           |
 
+#
+# 🔢 - Campos tabela: 02- multa_prazo 
+ **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
+---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
+01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
+02       | fk_multa                     | multa                   | bigint(20)              | Código *"id"* da tabela de **multa**.                                                |                                        |
+03       | prazo_inicial                |                         | int(11)                 | Início do período em dias para calcular a multa.                                     |  Prazo inicial                         |
+04       | prazo_final                  |                         | int(11)                 | Término do período em dias para a aplicação da multa.                                |  Prazo final                           |
+05       | percentual                   |                         | decimal(15,2)           | Percentual de multa que será aplicado dentro do período definido pelos prazos inicial e final.                                                                                      |  Percentual                            |
+
+#
 # Ações / botões:
  **\#**  |**Nome**                      |   **Função**  |
 ---------|------------------------------|---------------|
