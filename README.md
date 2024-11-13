@@ -9,7 +9,7 @@
 - [04 - Conta contábil](/Cadastro/04%20-%20conta_contabil.md)
 - [05 - Receitas](/Cadastro/05%20-%20receitas.md)
 - [06 - Classificação receita](/Cadastro/06%20-%20classificacao_receita.md)
-- [07 - Tipo de receita](Cadastro/04%20-%20tipo_de_receita.md)
+- [07 - Tipo de receita](Cadastro/07%20-%20tipo_de_receita.md)
 - [08 - Tipo procedimento](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/08%20-%20tipos_procedimento.md)
 - [09 - CNAE](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/09%20-%20CNAE.md)
 - [10 - Item de serviço](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/10%20-%20item_servico.md)
