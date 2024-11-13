@@ -45,7 +45,7 @@ Cadastro de multas aplicadas para cálculo no DAM, com configuração de prazo i
 02       | fk_multa                     | multa                   | bigint(20)              | Código *"id"* da tabela de **multa**.                                                |                                        |
 03       | prazo_inicial                |                         | int(11)                 | Início do período em dias para calcular a multa.                                     |  Prazo inicial                         |
 04       | prazo_final                  |                         | int(11)                 | Término do período, em dias, para aplicação da multa.                                |  Prazo final                           |
-05       | percentual                   |                         | decimal(15,2)           | Percentual da multa a ser aplicado dentro do período definido pelos prazos inicial e final.                                                                                      |  Percentual                            |
+05       | percentual                   |                         | decimal(15,2)           | Percentual da multa a ser aplicado dentro do período definido pelos prazos inicial e final.                                                                                      | Percentual                            |
 
 #
 # Ações / botões:

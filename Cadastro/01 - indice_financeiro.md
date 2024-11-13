@@ -46,7 +46,7 @@ Utilizada para corrigir valores monetários ou ajustar tributos ao longo do temp
 01       | id                           |                          | bigint UN AI PK         |                                                                                      |                                        |
 02       | fk_indice                    |indice_financeiro_correcao| bigint UN               | Código *"id"* da tabela de indice_financeiro                                         |                                        |
 03       | competencia                  |                          | date                    | Data de competência do ajuste da inflação.                                           | Ano                                    |
-04       | percentual                   |                          | decimal(15,2)           | Cadastro do indicador da inflação                                                    | IPCA ACUMULADO %                       |
+04       | percentual                   |                          | decimal(15,2)           | Cadastro do indicador da inflação.                                                    | IPCA ACUMULADO %                       |
 
 # Ações / botões:
  **\#**  |**Nome**                      |   **Função**  |
