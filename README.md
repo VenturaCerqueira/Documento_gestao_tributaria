@@ -53,8 +53,3 @@
 
 ## 6. Processamento
 - [Processamento](Processamento)
-
-![image](Vídeo do WhatsApp de 2024-11-13 à(s) 12.32.26_0280b788.mp4)
-
-
-
