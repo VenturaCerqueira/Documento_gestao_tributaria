@@ -11,13 +11,7 @@
 - [04 - conta_contabil](/Cadastro/04%20-%20conta_contabil.md)
 - [05 - receitas](/Cadastro/)
 - [06 - classificacao_receita](/Cadastro/06%20-%20classificacao_receita.md)
-- [07 - Receita condutor](/Cadastro/07%20-%20receita_condutor.md)
-- [08 - tipo_de_receita](Cadastro/04%20-%20tipo_de_receita.md)
-
-
-- [05 - conta_contabil](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/05%20-%20conta_contabil.md)
-- [06 - classificacao_receita](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/06%20-%20classificacao_receita.md)
-- [07 - receitas](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/07%20-%20receitas.md)
+- [07 - tipo_de_receita](Cadastro/04%20-%20tipo_de_receita.md)
 - [08 - tipos_procedimento](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/08%20-%20tipos_procedimento.md)
 - [09 - CNAE](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/09%20-%20CNAE.md)
 - [10 - item_servico](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/10%20-%20item_servico.md)
@@ -29,6 +23,8 @@
 - [16 - cidade](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/16%20-%20cidade.md)
 - [17 - estado](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/17%20-%20estado.md)
 - [18 - pais](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md)
+- [19 - CNAE item de serviço](/19%20-cnae_item_servico.md)
+
 
 ## 2. Contribuinte
 - [Contribuinte](Contribuinte/Contribuinte)
