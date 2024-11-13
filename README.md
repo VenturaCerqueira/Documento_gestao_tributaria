@@ -7,7 +7,7 @@
 - [02 - Multa](Cadastro/02%20-%20multa.md)
 - [03 - Juros de Mora](/Cadastro/03%20-%20juros.md)
 - [04 - Conta contábil](/Cadastro/04%20-%20conta_contabil.md)
-- [05 - Receitas](/Cadastro/)
+- [05 - Receitas](/Cadastro/05%20-%20receitas.md)
 - [06 - Classificação receita](/Cadastro/06%20-%20classificacao_receita.md)
 - [07 - Tipo de receita](Cadastro/04%20-%20tipo_de_receita.md)
 - [08 - Tipo procedimento](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/08%20-%20tipos_procedimento.md)
