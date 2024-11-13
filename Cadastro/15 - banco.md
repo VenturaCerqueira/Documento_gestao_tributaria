@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ## 🏦 Cadastro - Banco  
-Armazenamento dos dados bancários para pagamentos dos DAM's.
+Armazenamento dos dados bancários para o pagamento dos DAM's
 
 # Modelo de dados:
  **\#**  |**Nome Fisico**               |
@@ -11,13 +11,13 @@ Armazenamento dos dados bancários para pagamentos dos DAM's.
 1        | banco                        |
 
 #   ✅ - Tabelas dependente:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 1        | lancamento_baixa             |     1 - n     |
 2        | retorno_banco                |     1 - n     |
 
 #   ✅ - Tabelas relacionadas:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------| 
 1        | lancamento                   |     n - 1     |
 2        | contribuinte_receita         |     n - 1     |
@@ -58,6 +58,6 @@ Armazenamento dos dados bancários para pagamentos dos DAM's.
         1- Quando cod_banco_siafic estiver preenchido, ele sera usado no envio ao SIAFIC, senão o campo codigo enviado.       
 
 # 📄 Mensagem de erros/advertências: 
-Ao tentar excluir um **banco** que possui relacionamentos com as tabelas lancamento ou contribuinte_receita, a operação será bloqueada devido à restrição de integridade referencial (chave estrangeira). Isso ocorre porque existem registros nessas tabelas que fazem referência ao banco, impedindo sua exclusão enquanto esses vínculos existirem.
+Ao tentar excluir um **banco** que possui relacionamentos com as tabelas lancamento ou contribuinte_receita, a operação será bloqueada devido à restrição de integridade referencial (chave estrangeira). Isso ocorre porque há registros nessas tabelas que fazem referência ao banco, impedindo sua exclusão enquanto esses vínculos existirem.
 
 ↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/14%20-%20tipo_movimentacao.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/16%20-%20cidade.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 

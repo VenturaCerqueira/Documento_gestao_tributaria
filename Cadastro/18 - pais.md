@@ -6,7 +6,7 @@
 Cadastro de países usando os códigos ISO 3166.
 
 # 🎲 - Modelo de dados:
- **\#**  |**Nome Fisico**               |
+ **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 1        | pais                         |
 

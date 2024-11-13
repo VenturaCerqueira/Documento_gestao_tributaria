@@ -6,13 +6,13 @@
 TabeLa relacoional com codigo do CNAE. 
 
 # 🎲 - Modelo de dados:
- **\#**  |**Nome Fisico**               |
+ **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 01       | cnae_item_servico            |
 
 #
 #   ✅ - Tabelas relacionadas: cnae_item_servico
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 01       | cnae                         |    1 - N      |
 02       | item_servico                 |    1 - N      | 

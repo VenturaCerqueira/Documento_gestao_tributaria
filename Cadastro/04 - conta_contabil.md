@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Conta contábil 
-Cadastro de conta contábil com classificação detalhada, incluindo código contábil, abreviação do tributo, descrição completa e tipo de receita. Cada tributo é categorizado por tipo de receita, como impostos, taxas e outras receitas.
+Conta contábil é responsável por registrar e controlar as receitas e despesas associadas a impostos, taxas e outras obrigações fiscais. Ela assegura a classificação precisa e a apuração correta dos valores devidos, facilitando parte contábil.
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Físico**               |
 ---------|------------------------------|
@@ -30,7 +30,7 @@ Cadastro de conta contábil com classificação detalhada, incluindo código con
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
 02       | fK_receita_tipo*             | receita_tipo            | bigint(20)              | Código *"id"* da tabela *tipo_receita*.                                              | Tipo de receita                        |
 03       | codigo*                      |                         | varchar(50)             | Código da conta contábil.                                                            | Código                                 |
-04       | descricao*                   |                         | varchar(200)            | Detalhamento da conta contábil, descrevendo natureza.                                | Descrição                              |
+04       | descricao*                   |                         | varchar(200)            | Detalhamento da conta contábil, com descrição da natureza.                           | Descrição                              |
 05       | sigla*                       |                         | varchar(10)             | Sigla do tributo, **exemplos:** IPTU, TFF e outras abreviações.                      | Sigla                                  |
 
 

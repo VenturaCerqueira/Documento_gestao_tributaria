@@ -3,16 +3,16 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ## 🗺️ Cadastro - Cidade
-### 
+Cadastro de cidades para registro em tabelas, como contribuinte, notas fiscais e outras relacionadas.
 
 # 🎲 - Modelo de dados:
- **\#**  |**Nome Fisico**               |
+ **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 1        | estado                       |
 
 #
 #   ✅ - Tabelas relacionadas:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 1        | nota_contribuinte            |               |
 2        | tomador                      |               |
@@ -23,7 +23,7 @@
 7        | contribuinte                 |               |
 
 #   ✅ - Tabelas dependente:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------| 
 1        | cidade                       |     1 - n     |
 

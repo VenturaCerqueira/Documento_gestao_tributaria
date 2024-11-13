@@ -3,16 +3,16 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ## 🗺️ Cadastro - Cidade
-### Cadastro de bairros.
+Cadastro de bairros.
 
 # 🎲 - Modelo de dados:
- **\#**  |**Nome Fisico**               |
+ **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 1        | bairro                       |
 
 #
 #   ✅ - Tabelas relacionadas:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 2        | imovel                       |               |
 3        | logradouro                   |               |
@@ -20,7 +20,7 @@
 5        | contribuinte                 |               |
 
 #   ✅ - Tabelas dependente:
- **\#**  |**Nome Fisico**               |   **Relação** |
+ **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------| 
 1        | cidade                       |     1 - n     |
 

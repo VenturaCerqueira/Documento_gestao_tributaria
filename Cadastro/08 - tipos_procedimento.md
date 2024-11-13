@@ -6,7 +6,7 @@
 ### 
 
 # 🎲 - Modelo de dados:
- **\#**  |**Nome Fisico**               |
+ **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 01       | procedimento_tipo            |   
 

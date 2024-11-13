@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - Multa  
-Cadastro das multas aplicado para cálculo no DAM's, podendo cadastrar prazo inicial, prazo final e porcentual sobre-as.
+Cadastro de multas aplicadas para cálculo no DAM, com configuração de prazo inicial, prazo final e percentual aplicado sobre elas.
 
 #
 # 🎲 - Modelo de dados:
@@ -44,8 +44,8 @@ Cadastro das multas aplicado para cálculo no DAM's, podendo cadastrar prazo ini
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
 02       | fk_multa                     | multa                   | bigint(20)              | Código *"id"* da tabela de **multa**.                                                |                                        |
 03       | prazo_inicial                |                         | int(11)                 | Início do período em dias para calcular a multa.                                     |  Prazo inicial                         |
-04       | prazo_final                  |                         | int(11)                 | Término do período em dias para a aplicação da multa.                                |  Prazo final                           |
-05       | percentual                   |                         | decimal(15,2)           | Percentual de multa que será aplicado dentro do período definido pelos prazos inicial e final.                                                                                      |  Percentual                            |
+04       | prazo_final                  |                         | int(11)                 | Término do período, em dias, para aplicação da multa.                                |  Prazo final                           |
+05       | percentual                   |                         | decimal(15,2)           | Percentual da multa a ser aplicado dentro do período definido pelos prazos inicial e final.                                                                                      |  Percentual                            |
 
 #
 # Ações / botões:
