@@ -1,8 +1,5 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
-
-https://github.com/user-attachments/assets/4cc835e6-8269-4f3c-9fe0-f1c8309d8e04
-
 # Sumário de Documentos de Gestão Tributária
 
 ## 1. Cadastro
