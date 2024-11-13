@@ -9,7 +9,7 @@
 - [04 - Conta contábil](/Cadastro/04%20-%20conta_contabil.md)
 - [05 - Receitas](/Cadastro/05%20-%20receitas.md)
 - [06 - Classificação receita](/Cadastro/06%20-%20classificacao_receita.md)
-- [07 - Tipo de receita](Cadastro/07%20-%20tipo_de_receita.md)
+- [07 - Tipo de receita](Cadastro/07%20-%20receita_tipo.md)
 - [08 - Tipo procedimento](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/08%20-%20tipos_procedimento.md)
 - [09 - CNAE](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/09%20-%20CNAE.md)
 - [10 - Item de serviço](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/10%20-%20item_servico.md)
@@ -21,7 +21,7 @@
 - [16 - Cidade](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/16%20-%20cidade.md)
 - [17 - Estado](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/17%20-%20estado.md)
 - [18 - Pais](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md)
-- [19 - CNAE item de serviço](/19%20-cnae_item_servico.md)
+- [19 - CNAE item de serviço](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/19%20-cnae_item_servico.md)
 
 
 ## 2. Contribuinte
