@@ -1,4 +1,4 @@
-↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/17%20-%20estado.md) |🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/17%20-%20estado.md)  | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/19%20-cnae_item_servico.md)||🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
 
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
@@ -28,4 +28,4 @@ Cadastro de países usando os códigos ISO 3166.
 04       | sigla3                       |                         | varchar(3)              | Sigla de três caracteres para identificar países é padronizada pela ISO 3166-1 alpha-3. |                                        |
 05       | codigo                       |                         | varchar(10)             | Codificação ISO 3166-1 numeric.                                                         |                                        |
  
-↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/17%20-%20estado.md) |🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/17%20-%20estado.md)  | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/19%20-cnae_item_servico.md)||🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
