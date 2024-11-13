@@ -8,7 +8,13 @@
 - [01 - índice_financeiro](/Cadastro/01%20-%20indice_financeiro.md)
 - [02 - multa](Cadastro/02%20-%20multa.md)
 - [03 - juros](/Cadastro/03%20-%20juros.md)
-- [04 - tipo_de_receita](Cadastro/04%20-%20tipo_de_receita.md)
+- [04 - conta_contabil](/Cadastro/04%20-%20conta_contabil.md)
+- [05 - receitas](/Cadastro/)
+- [06 - classificacao_receita](/Cadastro/06%20-%20classificacao_receita.md)
+- [07 - Receita condutor](/Cadastro/07%20-%20receita_condutor.md)
+- [08 - tipo_de_receita](Cadastro/04%20-%20tipo_de_receita.md)
+
+
 - [05 - conta_contabil](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/05%20-%20conta_contabil.md)
 - [06 - classificacao_receita](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/06%20-%20classificacao_receita.md)
 - [07 - receitas](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/07%20-%20receitas.md)
