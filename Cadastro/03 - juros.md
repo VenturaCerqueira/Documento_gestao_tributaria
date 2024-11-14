@@ -14,7 +14,7 @@ Cobrados em caso de atraso no pagamento de uma obrigação, como impostos, taxas
 #   ✅ - Tabelas relacionadas:
  **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
-01       | receita_tipo                 |     1 - n     |
+01       | [receita_tipo](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/07%20-%20receita_tipo.md)                 |     1 - n     |
 
 #
 # 🔢 - Campos

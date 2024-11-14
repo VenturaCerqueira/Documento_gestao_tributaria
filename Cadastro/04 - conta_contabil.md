@@ -13,14 +13,14 @@ Conta contábil é responsável por registrar e controlar as receitas e despesas
 #   ✅ - Tabelas relacionadas:
  **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
-01       | lancamento                   |     1 - N     |
-02       | receita_classificacao        |     1 - N     |
+01       | [lancamento]()                   |     1 - N     |
+02       | [receita_classificacao](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/06%20-%20classificacao_receita.md)        |     1 - N     |
 
 
 #   ✅ - Tabelas dependente:
  **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------| 
-01       | receita_tipo                 |     1 - N     |
+01       | [receita_tipo](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/07%20-%20receita_tipo.md)                |     1 - N     |
 
 
 #
@@ -28,7 +28,7 @@ Conta contábil é responsável por registrar e controlar as receitas e despesas
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
-02       | fK_receita_tipo*             | receita_tipo            | bigint(20)              | Código *"id"* da tabela *tipo_receita*.                                              | Tipo de receita                        |
+02       | fK_receita_tipo*             | [receita_tipo](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/07%20-%20receita_tipo.md)            | bigint(20)              | Código *"id"* da tabela *tipo_receita*.                                              | Tipo de receita                        |
 03       | codigo*                      |                         | varchar(50)             | Código da conta contábil.                                                            | Código                                 |
 04       | descricao*                   |                         | varchar(200)            | Detalhamento da conta contábil, com descrição da natureza.                           | Descrição                              |
 05       | sigla*                       |                         | varchar(10)             | Sigla do tributo, **exemplos:** IPTU, TFF e outras abreviações.                      | Sigla                                  |

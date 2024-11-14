@@ -27,7 +27,7 @@ Cadastro de multas aplicadas para cálculo no DAM, com configuração de prazo i
 #   ✅ - Tabelas relacionadas: 01 - Multa:
  **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
-01       | receita_tipo                 |      1 - n    |
+01       | [receita_tipo](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/07%20-%20receita_tipo.md)                 |      1 - n    |
 
 #
 # 🔢 - Campos tabela: 01 - multa  

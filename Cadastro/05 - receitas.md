@@ -13,14 +13,14 @@
 #   ✅ - Tabelas relacionadas:
  **\#**  |**Nome Fisico**               |   **Relação** |
 ---------|------------------------------|---------------|      
-01       | receita_classificacao        |     1 - 1     |
+01       | [receita_classificacao](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/06%20-%20classificacao_receita.md)        |     1 - 1     |
 
 #   ✅ - Tabelas dependente:
  **\#**  |**Nome Fisico**               |   **Relação** |
 ---------|------------------------------|---------------| 
-01       | receita_valor                |     1 - N     |
-02       | contribuinte_receita         |     1 - N     |
-03       | lancamento                   |     1 - N     |
+01       | [receita_valor]()                |     1 - N     |
+02       | [contribuinte_receita]()         |     1 - N     |
+03       | [lancamento]()                   |     1 - N     |
 
 #
 # 🔢 - Campos
