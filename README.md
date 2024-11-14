@@ -22,7 +22,10 @@
 - [17 - Estado](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/17%20-%20estado.md)
 - [18 - Pais](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md)
 - [19 - CNAE item de serviço](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/19%20-cnae_item_servico.md)
-
+- [20 - UFM (Unidade Fiscal do Município) ](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/20%20-%20UFM.md)
+- [21 - Setor](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/21%20-%20setor.md)
+- [22 - Orgão Emissor](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/22-%20Org%C3%A3o%20Emissor.md)
+- [23 - Bairro](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/23%20-%20Bairro.md)
 
 ## 2. Contribuinte
 - [Contribuinte](Contribuinte/Contribuinte)
@@ -53,3 +56,11 @@
 
 ## 6. Processamento
 - [Processamento](Processamento)
+
+
+## 7. Gerenciamento
+- [01 - Parâmetro](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Gerenciamento/01%20-%20Par%C3%A2metro.md)
+- [02 - Prefeitura](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Gerenciamento/02%20-%20Prefeitura.md)
+- [03 - Usuários](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Gerenciamento/03%20-%20Usu%C3%A1rios.md)
+- [04 - Funções](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Gerenciamento/04%20-%20Fun%C3%A7%C3%B5es.md)
+- [05 - Conexões usuários](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Gerenciamento/05%20-%20Conex%C3%B5es%20usu%C3%A1rios.md)
