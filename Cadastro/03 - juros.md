@@ -38,4 +38,4 @@ Cobrados em caso de atraso no pagamento de uma obrigação, como impostos, taxas
 2        | excluir                      |               |
 
                                                                  
-  ↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/02%20-%20multa.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/04%20-%20tipo_de_receita.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria)    
+  ↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/02%20-%20multa.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/04%20-%20conta_contabil.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria)    

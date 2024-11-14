@@ -19,7 +19,7 @@
 #   ✅ - Tabelas dependente:
  **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------| 
-01       | [indice_financeiro] (https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/01%20-%20indice_financeiro.md)           |     1 - 1     |
+01       | [indice_financeiro](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/01%20-%20indice_financeiro.md)           |     1 - 1     |
 02       | [juros](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/03%20-%20juros.md)                       |     1 - 1     |
 03       | [multa](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/02%20-%20multa.md)                        |     1 - 1     |
 
