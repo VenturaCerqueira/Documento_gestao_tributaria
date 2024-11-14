@@ -9,7 +9,7 @@ Parâmetros da entidade responsáveis pela definição dos campos de informaçã
 01       | parametro                    |
 
 #
-# 🔢 - Campos:cnae_item_servico
+# 🔢 - Campos
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |

@@ -1,4 +1,4 @@
-↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md) |🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md)| ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/20%20-%20UFM.md)||🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
 
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
@@ -32,5 +32,4 @@ Tabela relacoional com codigo do CNAE.
 
 
 
-
-↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md) |🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md)| ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/20%20-%20UFM.md)||🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 

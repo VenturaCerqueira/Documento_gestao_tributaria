@@ -1,4 +1,4 @@
-↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md)| ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/19%20-cnae_item_servico.md) |🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/20%20-%20UFM.md)| ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/22-%20Org%C3%A3o%20Emissor.md)||🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
 
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
@@ -8,6 +8,12 @@ Cadastro de atendimento aos setores da entidade.
  **\#**  |**Nome Físico**               |
 ---------|------------------------------|
 01       | setor                        |
+
+#
+#   ✅ - Tabelas relacionadas: 01 - Multa:
+ **\#**  |**Nome Físico**               |   **Relação** |
+---------|------------------------------|---------------|      
+01       | movimentacao                 |      1 - n    |
 
 #
 # 🔢 - Campos:cnae_item_servico
@@ -24,4 +30,6 @@ Cadastro de atendimento aos setores da entidade.
 
 
 
-↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/18%20-%20pais.md) |🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
+
+
+↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/20%20-%20UFM.md)| ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/22-%20Org%C3%A3o%20Emissor.md)||🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
