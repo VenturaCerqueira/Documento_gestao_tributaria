@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/04662de1-1516-48d7-bb8c-50b38989e58b)
 # e-contrib - Modelo e-2025 
 ##  Cadastro - UFM (Unidade Fiscal do Município)
-Utilizada para corrigir monetariamente os valores de multas, taxas, tributos e outras dívidas, compensando as distorções causadas pela inflação.
+Utilizada para corrigir monetariamente os valores dos tributos, compensando as distorções causadas pela inflação. Atualizada anualmente via decreto. 
 
 # 🎲 - Modelo de dados:
  **\#**  |**Nome Físico**               |
