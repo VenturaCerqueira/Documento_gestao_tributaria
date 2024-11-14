@@ -11,7 +11,7 @@ Utilizada para corrigir monetariamente os valores de multas, taxas, tributos e o
 01       | ufm                          |
 
 #
-# 🔢 - Campos:cnae_item_servico
+# 🔢 - Campos:
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |

@@ -10,13 +10,13 @@ Cadastro de atendimento aos setores da entidade.
 01       | setor                        |
 
 #
-#   ✅ - Tabelas relacionadas: 01 - Multa:
+#   ✅ - Tabelas relacionadas:
  **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 01       | movimentacao                 |      1 - n    |
 
 #
-# 🔢 - Campos:cnae_item_servico
+# 🔢 - Campos:
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |

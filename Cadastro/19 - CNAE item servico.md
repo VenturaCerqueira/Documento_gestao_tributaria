@@ -11,14 +11,14 @@ Tabela relacoional com codigo do CNAE.
 01       | cnae_item_servico            |
 
 #
-#   ✅ - Tabelas relacionadas: cnae_item_servico
+#   ✅ - Tabelas relacionadas: 
  **\#**  |**Nome Físico**               |   **Relação** |
 ---------|------------------------------|---------------|      
 01       | cnae                         |    1 - N      |
 02       | item_servico                 |    1 - N      | 
 
 #
-# 🔢 - Campos:cnae_item_servico
+# 🔢 - Campos:
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                        | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|--------------------------------------------------------------------------------------|----------------------------------------|
 01       | id                           |                         | bigint UN AI PK         |                                                                                      |                                        |
