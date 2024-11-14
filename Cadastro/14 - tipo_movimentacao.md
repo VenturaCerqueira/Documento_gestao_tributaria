@@ -19,7 +19,7 @@ Cadastro vinculado ao protocolo do contribuinte.
 # 🔢 - Campos
  **\#**  | **Nome**                     | **Tabela Raiz**         | **Tipo/Tamanho**        | **Descrição**                                                                           | **Campo sistema**                      |
 ---------|------------------------------|-------------------------|-------------------------|-----------------------------------------------------------------------------------------|----------------------------------------|
-01       | id                           |                         | bigint UN AI PK         |                                                                                         |                                        |
+01       | id                           |                         | bigint UN AI PK         |   ´                                                                                      |                                        |
 02       | descricao *                  |                         | varchar(191)            |                                                                                         | Descrição                              |
 
 ↩️[Voltar página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/12%20-%20veiculo.md) | ➡️[Proxima página](https://github.com/VenturaCerqueira/Documento_gestao_tributaria/blob/main/Cadastro/15%20-%20banco.md)|🔢[Voltar menu](https://github.com/VenturaCerqueira/Documento_gestao_tributaria) 
